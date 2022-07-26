@@ -333,7 +333,7 @@ window.addEventListener('keydown', (event) => {
                 case 'Insert':
                     enemy.velocity.y = -15
                     break
-                case 'ArrowDown':
+                case 'Control':
                     enemy.attack()
                     break
                 }
